@@ -5,7 +5,8 @@ numbers = [1, 2, 3]
 
 
 def number_times_three(array):
-    return map(lambda number: number * 3, array)
+    numbers_times_three = map(lambda number: number * 3, array)
+    return numbers_times_three
 
 
 print(number_times_three(numbers))
@@ -17,7 +18,16 @@ words = ["hello", "goodbye"]
 
 
 def uppercase(array):
-    return map(lambda string: string.upper(), array)
+
+    uppercase_words = map(lambda string: string.upper(), array)
+    return uppercase_words
 
 
 print(uppercase(words))
+
+#  3. Start with an array of hashes and create a new array of string values from each hash's :name key.
+#     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes ["Alice", "Blane"].
+
+
+#  4. Start with an array of numbers and create a new array with each number plus 7.
+#     For example, [1, 2, 3] becomes [8, 9, 10].

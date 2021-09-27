@@ -36,6 +36,13 @@ print(number_times_itself(10))
 
 # 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
 
+
+def first_letter(string):
+    return string[0]
+
+
+print(first_letter("animal"))
+
 # 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
 
 # 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.

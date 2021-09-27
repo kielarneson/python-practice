@@ -18,6 +18,13 @@ print(capitalize('animal'))
 
 # 3. Write a function that takes in two numbers and returns the first number subtracted by the second. Then run the function and print the result.
 
+
+def subtract(num1, num2):
+    return num1 - num2
+
+
+print(subtract(10, 3))
+
 # 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
 
 # 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.

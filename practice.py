@@ -83,3 +83,10 @@ def average(num1, num2, num3):
 print(average(10, 40, 50))
 
 # 10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
+
+
+def number_manipulation(number):
+    return (number * 10) + 30
+
+
+print(number_manipulation(10))

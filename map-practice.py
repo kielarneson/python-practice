@@ -31,3 +31,13 @@ print(uppercase(words))
 
 #  4. Start with an array of numbers and create a new array with each number plus 7.
 #     For example, [1, 2, 3] becomes [8, 9, 10].
+
+numbers = [1, 2, 3]
+
+
+def number_plus_seven(array):
+    numbers_plus_seven = map(lambda number: number + 7, array)
+    return numbers_plus_seven
+
+
+print(number_plus_seven(numbers))

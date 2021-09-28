@@ -81,3 +81,11 @@ print(first_letter(words))
 
 # 10. Start with an array of numbers and create a new array with each number converted into a string.
 #     For example, [1, 2, 3] becomes ["1", "2", "3"].
+
+
+def number_to_string(array):
+    numbers_to_strings = map(lambda number: str(number), array)
+    return numbers_to_strings
+
+
+print(number_to_string(numbers))

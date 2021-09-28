@@ -61,6 +61,15 @@ print(string_length(words))
 #  7. Start with an array of numbers and create a new array with each number divided by 2.
 #     For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
 
+numbers = [1, 2, 3]
+
+
+def divided_by_two(array):
+    numbers_divided_by_two = map(lambda number: number / 2.0, array)
+    return numbers_divided_by_two
+
+
+print(divided_by_two(numbers))
 #  8. Start with an array of strings and create a new array with each string's first letter only.
 #     For example, ["hello", "goodbye"] becomes ["h", "g"].
 

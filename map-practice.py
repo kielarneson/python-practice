@@ -45,6 +45,16 @@ print(number_plus_seven(numbers))
 #  5. Start with an array of strings and create a new array with each string's length.
 #     For example, ["hello", "goodbye"] becomes [5, 7].
 
+words = ["hello", "goodbye"]
+
+
+def string_length(array):
+    words_length = map(lambda word: len(word), array)
+    return words_length
+
+
+print(string_length(words))
+
 #  6. Start with an array of hashes and create a new array of number values from each hash's :age key.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
 

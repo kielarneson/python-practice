@@ -32,8 +32,6 @@ print(uppercase(words))
 #  4. Start with an array of numbers and create a new array with each number plus 7.
 #     For example, [1, 2, 3] becomes [8, 9, 10].
 
-numbers = [1, 2, 3]
-
 
 def number_plus_seven(array):
     numbers_plus_seven = map(lambda number: number + 7, array)
@@ -44,8 +42,6 @@ print(number_plus_seven(numbers))
 
 #  5. Start with an array of strings and create a new array with each string's length.
 #     For example, ["hello", "goodbye"] becomes [5, 7].
-
-words = ["hello", "goodbye"]
 
 
 def string_length(array):
@@ -61,8 +57,6 @@ print(string_length(words))
 #  7. Start with an array of numbers and create a new array with each number divided by 2.
 #     For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
 
-numbers = [1, 2, 3]
-
 
 def divided_by_two(array):
     numbers_divided_by_two = map(lambda number: number / 2.0, array)
@@ -70,8 +64,17 @@ def divided_by_two(array):
 
 
 print(divided_by_two(numbers))
+
 #  8. Start with an array of strings and create a new array with each string's first letter only.
 #     For example, ["hello", "goodbye"] becomes ["h", "g"].
+
+
+def first_letter(array):
+    first_letters = map(lambda word: word[0], array)
+    return first_letters
+
+
+print(first_letter(words))
 
 # 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
